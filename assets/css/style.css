@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+
+.title {
+	background-image:
+	linear-gradient(
+		rgba(0,0,0,0.2),
+		rgba(0,0,0,0.2)
+		),
+		url(../images/background.gif);
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 75px;
+	color: white;
+}
+
+.titleText {
+	position: relative;
+	top: 10px;
+}
+
+.center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#searchgif {
+	width: 80%;
+}
+
+.submit {
+	width: 19%;
+}
+
+.gifHolder {
+	float: left;
+	margin: 10px;
+}
+
+.bodyclass {
+	background-color: black;
+}
+
+.btngif {
+	margin-left:3px;
+	margin-bottom:3px;
+}
+
+.enterForm{
+	margin-bottom: 10px;
+	height: 40px;
+}
+
+.images {
+	color: white;
+}
