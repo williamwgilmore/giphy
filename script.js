@@ -8,7 +8,7 @@ var hold;
 var ratingStore;
 
 //sends a request to giphy using the button title as the search value
-var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchVar + "&api_key=dc6zaTOxFJmzC";
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchVar + "&api_key=dc6zaTOxFJmzC";
 
 //holds the current url and exchanges it with the url stored in data-holdsrc
 var exchange;
@@ -79,7 +79,7 @@ document.onkeyup =function(event) {
 $('.buttons').on('click', '.btngif', function(){
 	//grabs the search term from the button's text and puts it into the queryURL
 	hold = this.outerText;
-	queryURL = "http://api.giphy.com/v1/gifs/search?q=" + hold + "&api_key=dc6zaTOxFJmzC";
+	queryURL = "https://api.giphy.com/v1/gifs/search?q=" + hold + "&api_key=dc6zaTOxFJmzC";
 
 	//uses the queryURL to add images
 	addGif();
